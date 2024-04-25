@@ -25,11 +25,15 @@ const Layout = () => {
                             </li>
                             <li className={styles.headerNavLeftMargin}>
                                 <NavLink to="/qa" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Ask a question
+                                    Ask a questio
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                <a
+                                    href="https://www.linkedin.com/company/metabiteco?trk=public_profile_topcard-current-company"
+                                    target={"_blank"}
+                                    title="Github repository link"
+                                >
                                     <img
                                         src={github}
                                         alt="Github logo"
